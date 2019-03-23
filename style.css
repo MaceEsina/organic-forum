@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "Berger-Regular";
+  src: url('fonts/BergenText-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "Arsenal-Regular";
+  src: url('fonts/Arsenal-Regular.ttf') format('truetype'),
+  url('fonts/Arsenal-Regular.woff') format('woff');
+}
+
+html, body {
+  font-size: 14px;
+  height: 100%;
+}
+
+body {
+  background: url('images/background.png') no-repeat center / cover;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  color: white;
+  padding: 20px;
+}
+
+#burger {
+  width: 50px;
+  height: 30px;
+  height: 60%;
+}
+
+#logo {
+  font: 1rem 'Berger-Regular', sans-serif;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+#location {
+  display: flex;
+  align-items: center;
+  font: 1rem 'Arsenal-Regular', sans-serif;
+  width: 25%;
+}
+
+#location span {
+  margin-left: 8px;
+}
+
+#contact {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact span {
+  font: 18px 'Berger-Regular', sans-serif;
+}
+
+#contact a {
+  font: 1rem 'Arsenal-Regular', sans-serif;
+  color: white;
+}
+
+h1 {
+  font: bold 42px 'Bergen-Regular', sans-serif;
+  margin: 0;
+}
+
+h2 {
+  color: #a2d0a4;
+  margin: 0;
+  font: 12px 'Arsenal-Regular', sans-serif;
+}
+
+hr {
+  width: 33%;
+}
+
+main {
+  text-align: center;
+  color: white;
+}
+
+
+main p {
+  font: 12px 'Arsenal-Regular', sans-serif;
+  margin: 0 auto;
+  width: 75%;
+}
+
+.center {
+  width: 50%;
+  height: 60px;
+}
+
+.center > div {
+  border-radius: 27px;
+  width: 70%;
+  height: 100%;
+  margin: 5px auto;
+  text-align: center;
+  position: relative;
+}
+
+.center span {
+  line-height: 60px;
+}
+
+.center > button {
+  width: 40%;
+  margin-left: -20px;
+  border-radius: 25px;
+}
+
+.icon {
+  width: 54px;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  bottom: 3px;
+}
+
+.small-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: black;
+  opacity: .2;
+}
+
+#data-info > div {
+  background: white;
+  color: black;
+}
+
+#data-info .icon {
+  background: #43a047;
+}
+
+#location-info > div {
+  background: white;
+}
