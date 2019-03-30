@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Berger-Regular;
+  font-family: Berger;
   src: url(fonts/BergenText-Regular.otf) format("opentype");
 }
 
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-  font-family: Arsenal-Regular;
+  font-family: Arsenal;
   src: url(fonts/Arsenal-Regular.ttf) format("truetype"),
   url(fonts/Arsenal-Regular.woff) format("woff");
 }
@@ -20,18 +20,6 @@
   url(fonts/Arsenal-Bold.woff) format("woff");
 }
 
-@font-face {
-  font-family: Arsenal-Italic;
-  src: url(fonts/Arsenal-Italic.ttf) format("truetype"),
-  url(fonts/Arsenal-Italic.woff) format("woff");
-}
-
-@font-face {
-  font-family: Arsenal-Bold-Italic;
-  src: url(fonts/Arsenal-BoldItalic.ttf) format("truetype"),
-  url(fonts/Arsenal-BoldItalic.ttf) format("woff");
-}
-
 * {
   box-sizing: border-box;
   outline: none;
@@ -40,13 +28,13 @@
 html, body {
   font-size: 14px;
   height: 100%;
-  font-family: Berger-Regular, sans-serif;
+  font-family: Berger, sans-serif;
 }
 
 body {
   padding: 30px;
   margin: 0;
-  background: url(images/background.png) no-repeat center / cover;
+  background: url(images/background.jpg) repeat-y center / cover;
 }
 
 button {
@@ -62,7 +50,7 @@ header {
   display: flex;
   justify-content: space-between;
   height: 50px;
-  max-width: 1280px;
+  max-width: 1000px;
   margin: 0 auto;
   color: white;
 }
@@ -105,7 +93,7 @@ main {
 }
 
 #logo {
-  font: 1rem Berger-Regular;
+  font: 1rem Berger;
   display: flex;
   align-items: center;
   width: 52%;
@@ -121,9 +109,9 @@ main {
 
 #location {
   display: flex;
-  align-items: center;
   font: 16px Arsenal-Bold;
-  width: 25%;
+  width: 33%;
+  align-self: start;
 }
 
 #location svg {
@@ -132,12 +120,12 @@ main {
 
 #location span {
   margin-left: 6px;
+  line-height: 20px;
   border-bottom: 1px dashed #838283;
 }
 
 #contact {
-  width: 170px;
-  margin: auto 18px;
+  width: 33%;
 }
 
 #contact div {
@@ -145,15 +133,16 @@ main {
 }
 
 #contact a {
-  font: 13px Arsenal-Regular;
-  color: #c6cec6;
+  font: 13px Arsenal;
+  color: #e0ebe0;
 }
 
 header .icon {
   width: 34px;
   min-width: 34px;
   height: 33px;
-  margin: auto 8px;
+  margin: 0 8px;
+  text-align: center;
   border: 2px solid white;
 }
 
@@ -161,16 +150,27 @@ header .icon {
   padding: 5px 4px 4px;
 }
 
+#vk svg {
+  width: 20px;
+  height: 22px;
+}
+
 #fb {
   padding: 5px 9px;
 }
 
+#fb svg {
+  width: 12px;
+  height: 19px;
+}
+
 #info {
-  font: 16px Arsenal-Regular;
+  font: 18px Arsenal;
   line-height: 1.625;
   margin: 0 auto 30px;
   color: #e2e8e2;
   max-width: 970px;
+  text-align: justify;
 }
 
 .buttons {
@@ -223,7 +223,7 @@ header .icon {
 }
 
 .big-btn span {
-  font-family: Arsenal-Bold-Italic;
+  font-family: Arsenal-Bold;
 }
 
 .big-btn svg {
@@ -246,7 +246,7 @@ header .icon {
 #data-info .big-btn {
   background: white;
   color: black;
-  font: 22px "Arsenal-Italic";
+  font: 22px Arsenal;
 }
 
 #data-info .small-btn,
@@ -278,23 +278,26 @@ header .icon {
   flex-direction: column;
   text-align: left;
   margin: 0;
-  font: 18px "Arsenal-Italic";
+  font: 18px Arsenal;
 }
 
 @media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px) {
-  h2 {
-    font-size: 17px;
-    margin-top: 50px;
+and (max-device-height: 568px)
+and (-webkit-device-pixel-ratio: 2) {
+  body {
+    background-image: url(images/background.gif);
   }
 
   h1 {
     font-size: 50px;
   }
 
+  h2 {
+    font-size: 16px;
+  }
+
   #info {
-    font-size: 38px;
+    font-size: 34px;
   }
 
   .big-btn {
@@ -353,5 +356,151 @@ and (max-device-width : 568px) {
 
   #contact a {
     font-size: 15px;
+  }
+}
+
+@media only screen
+and (min-device-height: 568px)
+and (-webkit-device-pixel-ratio: 2),
+only screen
+and (min-device-height: 568px)
+and (-webkit-device-pixel-ratio: 3) {
+  h1 {
+    font-size: 76px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .big-btn {
+    width: 600px;
+    height: 98px;
+    padding: 6px;
+    border-radius: 68px;
+  }
+
+  .small-btn {
+    height: 74px;
+    width: 300px;
+    font-size: 25px;
+    border-radius: 54px;
+    margin-left: -75px;
+  }
+
+  .big-btn .icon {
+    width: 90px;
+    height: 90px;
+  }
+
+  .small-btn .icon {
+    width: 68px;
+    height: 68px;
+  }
+
+  .small-btn svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .big-btn svg {
+    width: 44px;
+    height: 44px;
+  }
+
+  #data-info .big-btn {
+    font-size: 28px;
+  }
+
+  .big-btn .icon {
+    margin-right: 14px;
+  }
+
+  #location-info p {
+    font-size: 25px;
+  }
+
+  #logo {
+    font-size: 20px;
+    width: 38%;
+  }
+
+  #logo svg {
+    min-width: 90px;
+    width: 90px;
+    height: 76px;
+  }
+
+  #info {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+
+  #location {
+    font-size: 24px;
+  }
+
+  #contact div {
+    font: 20px Berger;
+  }
+
+  #contact a {
+    font-size: 18px;
+  }
+
+  header .icon {
+    width: 44px;
+    min-width: 44px;
+    height: 43px;
+  }
+
+  #vk svg {
+    width: 26px;
+    height: 29px;
+  }
+
+  #fb svg {
+    width: 14px;
+    height: 26px;
+  }
+}
+
+@media only screen
+and (min-device-height: 730px)
+and (max-device-height: 800px)
+and (-webkit-device-pixel-ratio: 2) {
+  #info {
+    font-size: 30px;
+  }
+}
+
+@media only screen
+and (min-device-height: 800px)
+and (max-device-height: 1024px)
+and (-webkit-device-pixel-ratio: 2) {
+  h1 {
+    font-size: 77px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  #logo {
+    font-size: 24px;
+  }
+
+  #logo svg {
+    min-width: 100px;
+    width: 100px;
+    height: 80px;
+  }
+
+  #location {
+    width: 33%;
+  }
+
+  #contact div {
+    font: 18px Berger;
   }
 }
