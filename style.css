@@ -32,7 +32,7 @@ html, body {
 }
 
 body {
-  padding: 30px;
+  padding: 20px 30px;
   margin: 0;
   background: url(images/background.jpg) repeat-y center / cover;
 }
@@ -49,10 +49,13 @@ button {
 header {
   display: flex;
   justify-content: space-between;
-  height: 50px;
-  max-width: 1000px;
-  margin: 0 auto;
   color: white;
+  max-width: 1000px;
+}
+
+body > header {
+  height: 50px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -68,6 +71,12 @@ h2 {
   letter-spacing: 10px;
   padding-left: 10px;
   font: 12px Arsenal-Bold;
+}
+
+h3 {
+  font: 32px Berger-Bold;
+  margin: 50px auto 20px;
+  text-transform: uppercase;
 }
 
 hr {
@@ -111,7 +120,7 @@ main {
   display: flex;
   font: 16px Arsenal-Bold;
   width: 33%;
-  align-self: start;
+  align-self: center;
 }
 
 #location svg {
@@ -141,7 +150,7 @@ header .icon {
   width: 34px;
   min-width: 34px;
   height: 33px;
-  margin: 0 8px;
+  margin: 10px;
   text-align: center;
   border: 2px solid white;
 }
@@ -167,9 +176,9 @@ header .icon {
 #info {
   font: 18px Arsenal;
   line-height: 1.625;
-  margin: 0 auto 30px;
+  margin: 0 auto;
   color: #e2e8e2;
-  max-width: 970px;
+  max-width: 1000px;
   text-align: justify;
 }
 
@@ -227,13 +236,13 @@ header .icon {
 }
 
 .big-btn svg {
-  width: 30px;
-  height: 30px;
+  width: 27px;
+  height: 27px;
 }
 
 .small-btn svg {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
 }
 
 .small-btn .icon {
@@ -279,6 +288,18 @@ header .icon {
   text-align: left;
   margin: 0;
   font: 18px Arsenal;
+}
+
+@media only screen
+and (max-device-width : 1080px)
+and (max-device-height : 1920px) {
+  h1 {
+    font-size: 86px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
 }
 
 @media only screen
@@ -361,16 +382,18 @@ and (-webkit-device-pixel-ratio: 2) {
 
 @media only screen
 and (min-device-height: 568px)
+and (max-device-height : 640px)
 and (-webkit-device-pixel-ratio: 2),
 only screen
 and (min-device-height: 568px)
+and (max-device-height : 640px)
 and (-webkit-device-pixel-ratio: 3) {
   h1 {
     font-size: 76px;
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 14px;
   }
 
   .big-btn {
@@ -434,6 +457,7 @@ and (-webkit-device-pixel-ratio: 3) {
   #info {
     font-size: 36px;
     margin-bottom: 50px;
+    line-height: 70px;
   }
 
   #location {
@@ -466,41 +490,12 @@ and (-webkit-device-pixel-ratio: 3) {
 }
 
 @media only screen
-and (min-device-height: 730px)
-and (max-device-height: 800px)
-and (-webkit-device-pixel-ratio: 2) {
-  #info {
-    font-size: 30px;
-  }
-}
-
-@media only screen
-and (min-device-height: 800px)
-and (max-device-height: 1024px)
-and (-webkit-device-pixel-ratio: 2) {
+and (max-height : 640px) {
   h1 {
-    font-size: 77px;
+    font-size: 86px;
   }
 
   h2 {
-    font-size: 14px;
-  }
-
-  #logo {
-    font-size: 24px;
-  }
-
-  #logo svg {
-    min-width: 100px;
-    width: 100px;
-    height: 80px;
-  }
-
-  #location {
-    width: 33%;
-  }
-
-  #contact div {
-    font: 18px Berger;
+    font-size: 20px;
   }
 }

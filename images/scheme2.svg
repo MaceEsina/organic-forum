@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Схема_залов" data-name="Схема залов" width="411" height="489.5" viewBox="0 0 411 489.5">
+  <defs>
+    <style>
+      .cls-1 {
+      fill: #fff9f5;
+      stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2 {
+      stroke: #d19f71;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-8 {
+      fill-rule: evenodd;
+      }
+
+      .cls-2 {
+      fill: none;
+      stroke-width: 1px;
+      }
+
+      .cls-3 {
+      fill: #e5e5e5;
+      }
+
+      .cls-10, .cls-19, .cls-21, .cls-22, .cls-23, .cls-24, .cls-4, .cls-5 {
+      font-size: 14px;
+      }
+
+      .cls-4, .cls-5 {
+      fill: #9d6e43;
+      font-style: italic;
+      }
+
+      .cls-131 {
+      fill: #005aff;
+      }
+
+      .cls-19, .cls-4 {
+      text-anchor: middle;
+      }
+
+      .cls-25, .cls-4, .cls-5 {
+      font-family: Arsenal;
+      }
+
+      .cls-21, .cls-23, .cls-24, .cls-4, .cls-5 {
+      font-weight: 700;
+      }
+
+      .cls-11, .cls-6 {
+      font-size: 20px;
+      font-family: "Material Design Icons";
+      }
+
+      .cls-10, .cls-6 {
+      fill: #333;
+      }
+
+      .cls-7 {
+      font-size: 22px;
+      }
+
+      .cls-11, .cls-19, .cls-23, .cls-24, .cls-7, .cls-8, .cls-9 {
+      fill: #f4603d;
+      }
+
+      .cls-10, .cls-7, .cls-9 {
+      font-family: FontAwesome;
+      }
+
+      .cls-9 {
+      font-size: 21px;
+      }
+
+      .cls-12 {
+      fill: #ec407a;
+      }
+
+      .cls-13 {
+      fill: #43a047;
+      }
+
+      .cls-14 {
+      fill: #fff119;
+      }
+
+      .cls-15 {
+      fill: #9b59b6;
+      }
+
+      .cls-16 {
+      fill: #e67e22;
+      }
+
+      .cls-17 {
+      fill: #34495e;
+      }
+
+      .cls-18 {
+      fill: #f02d00;
+      }
+
+      .cls-19, .cls-21, .cls-22, .cls-23, .cls-24 {
+      font-family: "Bergen Text";
+      }
+
+      .cls-20 {
+      font-family: "Myriad Pro";
+      font-size: 10px;
+      }
+
+      .cls-23 {
+      text-anchor: end;
+      }
+
+      .cls-23, .cls-24 {
+      text-transform: uppercase;
+      }
+
+      .cls-25 {
+      font-size: 16px;
+      fill: gray;
+      }
+    </style>
+  </defs>
+  <g id="Залы">
+    <path id="Общая_фигура_2_пикселя_обводка" data-name="Общая фигура 2 пикселя обводка" class="cls-1" d="M538,537H132V707h76V927H326v40H173v56H526V967H387V927H518V824H485V657h53V537Z" transform="translate(-129.5 -534.5)"/>
+    <path id="WC" class="cls-2" d="M386.006,758.994h99V793H386.006V758.994Z" transform="translate(-130 -534.5)"/>
+    <path id="Переход" class="cls-3" d="M326,927h59v41.5H326V927Z" transform="translate(-128.5 -535.5)"/>
+    <path id="Зал_10" data-name="Зал 10" class="cls-2" d="M206,722.014H326V823H206V722.014Z" transform="translate(-127 -534.5)"/>
+    <path id="ЗАл_9" data-name="ЗАл 9" class="cls-2" d="M130,634h75.5012V709.01H130V634Z" transform="translate(-127 -537)"/>
+    <path id="ЗАл_5" data-name="ЗАл 5" class="cls-2" d="M386.006,657.014h99.982V760H386.006V657.014Z" transform="translate(-130 -534.5)"/>
+    <path id="Зал_4" data-name="Зал 4" class="cls-2" d="M540,628H415l-16-16.723V535H540v93Z" transform="translate(-132 -532)"/>
+    <path id="Зал_3" data-name="Зал 3" class="cls-2" d="M299.006,535H364v85.987H299.006V535Z" transform="translate(-123 -532)"/>
+    <path id="Зал_2" data-name="Зал 2" class="cls-2" d="M241.014,535H300v60.014H241.014V535Z" transform="translate(-124.5 -532)"/>
+    <path id="Зал_1" data-name="Зал 1" class="cls-2" d="M184.994,535h57.012v60.014H184.994V535Z" transform="translate(-126 -532)"/>
+    <path id="Сократ" class="cls-2" d="M129.994,535h56.012v60.014H129.994V535Z" transform="translate(-127.5 -532)"/>
+  </g>
+  <g id="Подписи_залов" data-name="Подписи залов">
+    <text id="Выставочный_зал_Ленполиграфмаш_" data-name="Выставочный зал «Ленполиграфмаш»" class="cls-4" x="267" y="477">Выставочный зал «Ленполиграфмаш»</text>
+    <text id="Большое_фойе" data-name="Большое фойе" class="cls-4" x="151" y="340">Большое фойе</text>
+    <text id="Коворкинг_КБ_Футурист_" data-name="Коворкинг «КБ Футурист»" class="cls-4" x="133" y="233.5">Коворкинг<tspan x="133" dy="16.8">«КБ Футурист»</tspan></text>
+    <text id="Леонардо" class="cls-4" x="306" y="176.5">Леонардо</text>
+    <text id="Малое_фойе" data-name="Малое фойе" class="cls-5" x="107" y="133.5">Малое фойе</text>
+    <text id="Летняя_терраса" data-name="Летняя терраса" class="cls-4" x="39" y="132.499">Летняя<tspan x="39" dy="16.8">терраса</tspan></text>
+    <text id="Микеланджело" class="cls-5" x="293" y="45">Микеланджело</text>
+    <text id="Рафаэль" class="cls-5" x="182" y="37">Рафаэль</text>
+    <text id="Платон" class="cls-5" x="122" y="37">Платон</text>
+    <text id="Аристо-_тель" data-name="Аристо- тель" class="cls-4" x="87" y="18">Аристо-<tspan x="86" dy="16.8">тель</tspan></text>
+    <text id="Сократ-2" data-name="Сократ" class="cls-4" x="30" y="33">Сократ</text>
+  </g>
+  <g id="Иконки">
+    <text id="Wc-2" data-name="Wc" class="cls-6" x="296.5" y="249.499"></text>
+    <text id="Стрелка_наверх" data-name="Стрелка наверх" class="cls-7" x="222.166" y="454"></text>
+    <path id="стрелка_вниз_2" data-name="стрелка вниз 2" class="cls-8" d="M360.625,737.067H358v-27.55a0.484,0.484,0,0,0-.106-0.324,0.336,0.336,0,0,0-.269-0.127h-2.25a0.338,0.338,0,0,0-.27.127,0.489,0.489,0,0,0-.105.324v27.55h-2.625a0.357,0.357,0,0,0-.34.267,0.524,0.524,0,0,0,.059.492l4.16,5.4a0.357,0.357,0,0,0,.281.141,0.349,0.349,0,0,0,.27-0.141l4.1-5.4a0.524,0.524,0,0,0,.059-0.492,0.345,0.345,0,0,0-.34-0.267h0Z" transform="translate(-129.5 -534.5)"/>
+    <text id="стрелка_вниз" data-name="стрелка вниз" class="cls-9" x="222.501" y="363.167"></text>
+    <text id="стрелка_направо" data-name="стрелка направо" class="cls-9" x="100.833" y="455.833"></text>
+    <text id="стрелка_направо_копия" data-name="стрелка направо копия" class="cls-9" x="160.834" y="455.833"></text>
+    <text id="иконка_кафе" data-name="иконка кафе" class="cls-10" x="361.5" y="381.5"></text>
+    <g id="лифт">
+      <path id="_" data-name="" class="cls-8" d="M196,986.917h-2.016v-6.835H196L193,975l-3,5.087h2.015v6.835H190L193,992Z" transform="translate(-129.5 -534.5)"/>
+      <text id="_2" data-name="" class="cls-11" x="45.167" y="456.499"></text>
+    </g>
+  </g>
+  <g id="Маркеры_на_схеме" data-name="Маркеры на схеме">
+    <circle id="Эллипс_7_копия_5" data-name="Эллипс 7 копия 5" class="cls-131" cx="29.5" cy="46.5" r="5"/>
+    <circle id="Розовый_маркер_копия" data-name="Розовый маркер копия" class="cls-12" cx="144.5" cy="152.5" r="5"/>
+    <circle id="Эллипс_7_копия" data-name="Эллипс 7 копия" class="cls-13" cx="329.5" cy="65" r="5"/>
+    <circle xmlns="http://www.w3.org/2000/svg" id="Эллипс_7_копия_6" data-name="Эллипс 7 копия 6" class="cls-131" cx="306.5" cy="195.5" r="5"/>
+    <circle id="Эллипс_7_копия_7" data-name="Эллипс 7 копия 7" class="cls-131" cx="84.5" cy="46.5" r="5"/>
+    <circle id="Эллипс_7_копия_3" data-name="Эллипс 7 копия 3" class="cls-14" cx="349.5" cy="65" r="5"/>
+    <circle id="Эллипс_7_копия_9" data-name="Эллипс 7 копия 9" class="cls-15" cx="210.5" cy="405.5" r="5"/>
+    <g id="Маркеры_большое_фойе" data-name="Маркеры большое фойе">
+      <circle id="Розовый_маркер_копия_2" data-name="Розовый маркер копия 2" class="cls-12" cx="180" cy="360" r="5"/>
+      <circle id="Оранжевый_маркер_копия" data-name="Оранжевый маркер копия" class="cls-16" cx="140" cy="360" r="5"/>
+      <circle id="Серый_маркер_копия" data-name="Серый маркер копия" class="cls-17" cx="160" cy="360" r="5"/>
+      <circle id="Красный" class="cls-18" cx="120" cy="360" r="5"/>
+    </g>
+  </g>
+  <text id="лифт_1_2" data-name="лифт №1, №2" class="cls-19" x="91.833" y="476.834">лифт <tspan class="cls-21">№</tspan><tspan class="cls-21">1, </tspan><tspan class="cls-21">№</tspan><tspan class="cls-21">2</tspan></text>
+  <text id="Этаж_H" data-name="Этаж H" class="cls-23" x="331" y="282.501">Этаж H</text>
+  <text id="Этаж_5" data-name="Этаж 5" class="cls-24" x="334" y="453.5">Этаж 5</text>
+  <text id="переход_на_ЭТАЖ_Н" data-name="переход на ЭТАЖ Н" class="cls-25" x="268.5" y="416.5">переход на ЭТАЖ Н</text>
+</svg>
