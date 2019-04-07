@@ -279,7 +279,7 @@
   margin-top: -55px;
 }
 
-#day-1-info .formats div {
+.formats div {
   margin-top: 13px;
 }
 
@@ -357,4 +357,12 @@
 #header-day-1.active,
 #header-day-2.active {
   cursor: default;
+}
+
+@media only screen
+and (max-device-width : 667px)
+and (-webkit-device-pixel-ratio : 2) {
+  #day-1-info .formats {
+    margin-top: -35px;
+  }
 }
