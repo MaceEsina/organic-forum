@@ -175,7 +175,7 @@ header .icon {
 
 #info {
   font: 18px Arsenal;
-  line-height: 1.625;
+  line-height: 30px;
   margin: 0 auto;
   color: #e2e8e2;
   max-width: 1000px;
@@ -294,11 +294,30 @@ header .icon {
 and (max-device-width : 1080px)
 and (max-device-height : 1920px) {
   h1 {
-    font-size: 86px;
+    font-size: 74px;
   }
 
   h2 {
+    font-size: 14px;
+    margin-top: 50px;
+  }
+
+  #info {
+    line-height: 3.5rem;
     font-size: 20px;
+  }
+}
+
+@media only screen
+and (max-device-width : 1080px)
+and (max-device-height : 1920px)
+and (-webkit-device-pixel-ratio: 4) {
+  h1 {
+    font-size: 74px;
+  }
+
+  h2 {
+    font-size: 14px;
   }
 }
 
@@ -315,6 +334,7 @@ and (-webkit-device-pixel-ratio: 2) {
 
   h2 {
     font-size: 16px;
+    margin-top: 50px;
   }
 
   #info {
@@ -394,6 +414,7 @@ and (-webkit-device-pixel-ratio: 3) {
 
   h2 {
     font-size: 14px;
+    margin-top: 50px;
   }
 
   .big-btn {
@@ -497,5 +518,6 @@ and (max-height : 640px) {
 
   h2 {
     font-size: 20px;
+    margin-top: 50px;
   }
 }
